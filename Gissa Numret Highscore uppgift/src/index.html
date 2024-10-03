@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./modules/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Gissa Numret</h1>
+    <p>I spelet kommer datorn att välja ett nummer mellan 1 och 3. Din uppgift är att gissa vilket nummer det är. Gissar du rätt får du 1 poäng och datorn väljer ett nytt nummer. Om du gissar fel jämförs din poäng med highscorelistan, och om din poäng är högre än den lägsta i listan läggs ditt namn och poäng till. Därefter nollställs din poäng och spelet fortsätter med ett nytt nummer. Lycka till!</p>
+    
+    <button id="btn1" data-number="1">1</button>
+    <button id="btn2" data-number="2">2</button>
+    <button id="btn3" data-number="3">3</button>
+
+    <p id="resultP"></p>
+    <div id="nameDiv"></div>
+
+    <h3>Highscore</h3>
+    <ol id="highscorelist"></ol>
+
+</body>
+</html>
